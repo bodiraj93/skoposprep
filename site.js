@@ -26,17 +26,7 @@ for (const btn of document.querySelectorAll('.shot button')) {
 }
 box.addEventListener('click', (e) => { if (e.target === box) box.close(); });
 
-// Feature loops play only while on screen, and never under reduced motion (the poster frame stays).
-const loops = document.querySelectorAll('video.loop');
-const io = new IntersectionObserver((entries) => {
-  for (const { target, isIntersecting } of entries) {
-    if (isIntersecting && !reduce.matches) {
-      if (target.preload !== 'auto') { target.preload = 'auto'; target.load(); }
-      target.play().catch(() => {});
-    } else target.pause();
-  }
-}, { threshold: 0.35 });
-loops.forEach((v) => io.observe(v));
+
 
 // Passage demos: one question at a time, immediate feedback, then the app's explanation.
 for (const set of document.querySelectorAll('.pset')) {

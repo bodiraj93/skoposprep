@@ -105,6 +105,7 @@ p { margin: 0 0 12px; }
 .feature:last-child { margin-bottom: 0; }
 .feature.flip-row .feature-media { order: 2; }
 .feature-media video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: var(--sunken); }
+.feature-media img { display: block; width: 100%; height: auto; background: var(--sunken); }
 .feature-text p { color: var(--fg2); }
 .feature-text h3 { font-size: clamp(22px, 2.2vw, 28px); line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 14px; }
 .feature-text .detail { padding-left: 14px; border-left: 2px solid var(--accent); color: var(--fg3); font-size: 15px; }
