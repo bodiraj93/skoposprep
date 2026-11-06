@@ -60,3 +60,13 @@ for (const set of document.querySelectorAll('.pset')) {
   });
   show(0);
 }
+
+// Feature screenshots open full size in the same lightbox.
+for (const img of document.querySelectorAll('img.loop')) {
+  img.tabIndex = 0;
+  img.setAttribute('role', 'button');
+  img.style.cursor = 'zoom-in';
+  const open = () => { boxImg.src = img.src; boxImg.alt = img.alt; boxCap.textContent = img.alt; box.showModal(); };
+  img.addEventListener('click', open);
+  img.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+}
