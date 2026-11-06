@@ -257,7 +257,7 @@ p { margin: 0 0 12px; }
 /* closing band */
 .cta-band { position: relative; overflow: hidden; padding: 64px 32px; border-radius: 12px; text-align: center; color: #fff; background: radial-gradient(800px 300px at 50% -20%, rgba(255,255,255,.18), transparent 70%), linear-gradient(135deg, #0A6CC8, #003E92); box-shadow: var(--sh28); }
 .cta-band .mark { color: #fff; margin-bottom: 12px; }
-.cta-band h2 { color: #fff; }
+.cta-band h2 { color: #fff; margin-bottom: 28px; }
 .cta-band p { margin: 12px 0 24px; color: rgba(255,255,255,.9); font-size: 18px; }
 
 /* footer */
