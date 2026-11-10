@@ -33,14 +33,7 @@
   "operatingSystem": "Windows, macOS",
   "applicationCategory": "EducationalApplication",
   "image": "https://skoposprep.com/og.jpg",
-  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-  "author": {
-    "@type": "Person",
-    "name": "Bodi Rajamanthri",
-    "alternateName": "Bodi Raj",
-    "url": "https://bodiraj93.github.io/",
-    "sameAs": ["https://www.linkedin.com/in/bodi-raj/"]
-  }
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
 }
 </script>
 </head>
@@ -409,7 +402,7 @@
           <li>Does not require an account</li>
           <li>Study data stays on your computer, in an encrypted SQLCipher database</li>
           <li>Four AI providers, all optional, each with your own key</li>
-          <li>Works fully offline</li>
+          <li>Works offline, except the optional AI features</li>
         </ul>
       </div>
     </div>
@@ -426,25 +419,6 @@
   </div>
 </section>
 
-<section class="block tint" id="about" aria-labelledby="about-h">
-  <div class="wrap">
-    <div class="maker">
-      <div class="maker-text">
-        <p class="eyebrow">Built by</p>
-        <h2 id="about-h">Bodi Rajamanthri</h2>
-        <p>Bodi leads Skopos from Winnipeg. He defines the requirements and quality standards, designs the interface and tests every release. His biochemistry degree lets him verify the science content directly.</p>
-        <p>He treats AI coding agents as capable but untrusted. They write fast, and they can also hallucinate, so nothing they produce is believed until a test proves it. Over the past year he built a harness around that idea. Every task starts as a written contract, with a test designed to fail on bad work. The agents, Claude Code and OpenAI Codex, write code in isolated branches, and a second agent, blind to the first, tries to break the result. Nothing merges until the Node unit tests and the end-to-end tests pass again and leave a record that they ran. At the key gates, Bodi runs the app himself and signs off.</p>
-        <p class="cta-row"><a class="btn" href="https://bodiraj93.github.io">Read the case study</a><a class="btn subtle" href="https://www.linkedin.com/in/bodi-raj/">LinkedIn</a></p>
-      </div>
-      <ul class="eng" aria-label="Engineering facts">
-        <li><strong>Nearly 2,000</strong><span>automated test files, including end-to-end tests that drive the real app</span></li>
-        <li><strong>Years</strong><span>of study simulated on the real encrypted database, with missed days, rest days and exam date changes</span></li>
-        <li><strong>100,000</strong><span>cards loaded in a single run to test scale</span></li>
-        <li><strong>One owner</strong><span>for every rule, so the home screen, sessions and planner always agree</span></li>
-      </ul>
-    </div>
-  </div>
-</section>
 
 <section class="block" id="faq" aria-labelledby="faq-h">
   <div class="wrap narrow">
@@ -455,7 +429,7 @@
     <div class="faq">
       <details><summary>Is Skopos free?</summary><p>Yes. Skopos is free, and it does not require an account.</p></details>
       <details><summary>When can I use it?</summary><p>Skopos is in development, and it will be free for anyone who wants it. Select Get launch updates to hear when it is ready.</p></details>
-      <details><summary>What does it run on?</summary><p>Skopos is a desktop app for Windows and Mac. It works fully offline.</p></details>
+      <details><summary>What does it run on?</summary><p>Skopos is a desktop app for Windows and Mac. It works offline. The optional AI features need an internet connection.</p></details>
       <details><summary>Do I need an AI key?</summary><p>AI features are optional. When you use them, they run on your own key with the provider you choose.</p></details>
       <details><summary>Where does the content come from?</summary><p>Science content comes from OpenStax textbooks, and every science question and card traces back to the section it came from. CARS passages are real excerpts from published writing, taken word for word from open-access humanities essays and credited to their authors.</p></details>
       <details><summary>Can I bring my Anki decks?</summary><p>Yes. Skopos imports and exports Anki decks. A deck of over 6,000 notes imports in under 30 seconds.</p></details>
@@ -489,8 +463,6 @@
       <p class="brand small"><svg class="mark" width="20" height="20" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 5.5 a10.5 10.5 0 1 1 -7.8 3.4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="16" cy="5.5" r="2.9" fill="currentColor"/></svg>Skopos</p>
     </div>
     <nav class="foot-links" aria-label="Footer">
-      <a href="https://bodiraj93.github.io">Case study</a>
-      <a href="https://www.linkedin.com/in/bodi-raj/">LinkedIn</a>
       <a href="mailto:hello@skoposprep.com">hello@skoposprep.com</a>
     </nav>
   </div>
