@@ -321,3 +321,9 @@ dialog .close { position: absolute; top: 10px; right: 10px; padding: 5px 14px; b
 }
 .qb { color: var(--fg3); font-size: 13px; line-height: 1.45; }
 .has-fig .back .a { font: 600 18px/1.4 var(--display); }
+
+.own-figure { margin: 0; padding: 20px; }
+.own-fig { display: block; width: 100%; height: auto; }
+.own-fig.narrow { display: none; }
+@media (max-width: 720px) { .own-fig.wide { display: none; } .own-fig.narrow { display: block; } .own-figure { padding: 12px; } }
+.soon { margin: 22px 0 0; font-size: 14px; color: var(--fg3); font-style: italic; }
