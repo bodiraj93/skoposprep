@@ -327,3 +327,9 @@ dialog .close { position: absolute; top: 10px; right: 10px; padding: 5px 14px; b
 .own-fig.narrow { display: none; }
 @media (max-width: 720px) { .own-fig.wide { display: none; } .own-fig.narrow { display: block; } .own-figure { padding: 12px; } }
 .soon { margin: 22px 0 0; font-size: 14px; color: var(--fg3); font-style: italic; }
+
+.why-grid { align-items: start; }
+.why-text p { color: var(--fg2); font-size: 17px; line-height: 1.6; margin: 0 0 16px; }
+.why-video { margin: 0; padding: 0; overflow: hidden; }
+.why-video video { display: block; width: 100%; height: auto; background: #000; }
+.why-video figcaption { margin: 0; padding: 10px 14px 12px; }
