@@ -333,3 +333,5 @@ dialog .close { position: absolute; top: 10px; right: 10px; padding: 5px 14px; b
 .why-video { margin: 0; padding: 0; overflow: hidden; }
 .why-video video { display: block; width: 100%; height: auto; background: #000; }
 .why-video figcaption { margin: 0; padding: 10px 14px 12px; }
+.why-link { align-self: center; margin-left: 18px; color: var(--accent); font-weight: 600; text-decoration: none; }
+.why-link:hover { text-decoration: underline; }
